@@ -11,8 +11,6 @@ import time
 
 def get_data(URL, retries=5):
     """   go to the URL and return the JSON using UN/PW credentials  """
-    from time import sleep
-    import settings
 
     try:
         print settings.PASSWORD
@@ -104,13 +102,3 @@ def pull_relevant_data(JSON):
                  first_point, last_point  ]               # 10, 11
         results.append( data )
     return results
-
-
-
-
-
-
-
-data_url = 'http://data.shareabouts.org/api/v2/~/datasets?format=json&page=1'
-
-data_server = get_data(data_url)
