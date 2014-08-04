@@ -1,0 +1,105 @@
+user,total_datasets,places,comments,dataset_names
+jacksonheights,1,43,50,['jacksonheights']
+dksassociates,9,248,292,"['clatsop', 'dkstest', 'test', 'cottagegrove', 'newberg', 'lane', 'dundee', 'lanecountytsp', 'columbia']"
+lvartani,1,0,0,['tbilisi']
+urbansocial,1,155,0,['urbansocial']
+codeformiami,1,9,0,['dwmb']
+markabraham,1,234,0,['datahaven']
+weho,1,206,458,['weho']
+d8,1,58,18,['d8']
+d38,1,34,13,['d38']
+d39,2,292,1266,"['d39-shortlist-test', 'd39']"
+d32,1,26,4,['d32']
+d33,1,66,160,['d33']
+d31,1,19,17,['d31']
+Eskilstuna,2,300,1040,"['tyck_tiller', 'stadsparken']"
+rdiana,1,0,0,['rdiana-data']
+chicagobikes,2,196,441,"['chicago-bike-parking', 'chicago-abandoned-bikes']"
+jj0hns0n,4,993,528,"['sdcipcpg', 'realconnect-test', 'sdcipcpg-2015', 'sdcipcpg-2014']"
+biketotransit,1,316,473,['biketotransit']
+steveleathers,2,21,4,"['migshare', 'joy']"
+borotaxis,2,1171,2723,"['taxistands', 'test']"
+atogle,1,0,1,['test']
+columbia1,7,191,6,"['GillianData', 'KazData', 'EllisData', 'rise', 'BGData', 'CarolineData', 'AmyData']"
+cmlander,1,2,0,['albemarle-survey']
+gtracy,2,22,10,"['littlelibrary608', 'madisonstartups']"
+bicycle-coalition,1,0,0,['rail-stations']
+publicinnovation,2,5,7,"['sacramento', 'streetfarm']"
+UniversityBikeCollective,2,77,130,"['ForSurvey', 'test']"
+d45,1,40,28,['d45']
+d44,1,13,6,['d44']
+kevinvanlierop,1,0,0,['kevinvanlierop-data']
+fhebbert,1,0,0,['test']
+nyrising,12,33775,325,"['lmtemp', 'rh', 're', 'rw', 'hb-full', 'rhtest', 'bp', 'rh4', 'rh3', 'rh2', 'hb', 'lm']"
+smitaki,1,1,0,['cmom']
+planbox-dev,18,16,0,"['atogle-map', 'aogle123-project-123', 'mpoe-undefined', 'atogle-shareabouts2', 'atogle-jlksdjkasdfkjfds', 'visionzero-vision-zero', 'test-slug2', 'test-slug3', 'test-slug5', 'test-slug6', 'atogle-test-again', 'mpoe-title', 'mpoe-my-title', 'atogle-hi-hi', 'test-slug4', 'atogle-sharebouts', 'mpoe-my-new-test-project', 'test-slug']"
+dvandemark,1,6,0,['suncycles']
+iturgeon,1,2,2,['letsrecycle']
+nhamdaoui,1,3,1,['nabila-data']
+rex,1,0,0,['louisville']
+cmassa,1,1,0,['recoverymap']
+divvy,2,5637,46707,"['divvy-all-data', 'divvy']"
+chekpeds,3,155,9,"['benches', 'lessphonebooths', 'intersections']"
+afraint,6,491,125,"['crashdata_NYC', 'twincities', 'nyc_dev_data', 'new_york_data', 'crash_testing', 'overlays']"
+gmccollam,1,7,7,['nolabikeshare']
+peoplepower,1,0,0,['peoplepower-data']
+walkersq,1,0,0,['walkersq']
+jjones,17,2213,10311,"['version1', 'marion', 'moragard', 'midsouth2', 'nwarkansas', 'cogo', 'moraga', 'columbia', 'stlouis', 'newport', 'wfubikeped', 'goldsboro', 'richmond-bike', 'ncstatebikes', 'psbs', 'walkstudy', 'evansville']"
+jon,1,3,1,['unlitterdelphia-dev']
+demo-user,4,593,424,"['cb7-demo', 'bigredbutton', 'ui-refresh-testing', 'demo-data']"
+metro,1,0,0,['bike-lockers']
+admin,4,2532,5,"['test', 'dev-chicago-bike-parking', 'vz-dev', 'dev-chicago-abandoned-bikes']"
+georgiabullen,3,88,126,"['coronaplaza', 'mountrainier', 'civichacking_data']"
+alta,2,124,0,"['walkbikenc', 'alta-data']"
+cb6,1,106,160,['cb6capex']
+jlally,6,2623,271,"['walkdenver', 'test', 'sustainable-communities', 'mansfield', 'osu', 'eastcorridor']"
+ecocamp,121,33,23,"['navy-blue', 'banana-mania', 'beaver', 'cornflower', 'gray', 'olive-green', 'violet-red', 'aquamarine', 'copper', 'wild-strawberry', 'silver', 'pink-flamingo', 'denim', 'vivid-tangerine', 'red', 'midnight-blue', 'blue', 'outrageous-orange', 'dandelion', 'outer-space', 'bittersweet', 'mahogany', 'yellow-orange', 'goldenrod', 'red-orange', 'tropical-rain-forest', 'yellow', 'caribbean-green', 'eggplant', 'shadow', 'fuchsia', 'purple-heart', 'raw-sienna', 'blue-green', 'timberwolf', 'burnt-sienna', 'radical-red', 'test', 'yellow-green', 'fuzzy-wuzzy-brown', 'cotton-candy', 'white', 'sunset-orange', 'green-yellow', 'sea-green', 'unmellow-yellow', 'royal-purple', 'atomic-tangerine', 'sepia', 'chestnut', 'laser-lemon', 'cerise', 'fern', 'electric-lime', 'shocking-pink', 'tumbleweed', 'spring-green', 'hot-magenta', 'robin-egg-blue', 'lavender', 'orange', 'desert-sand', 'black', 'apricot', 'cerulean', 'purple-mountains-majesty', 'brown', 'screamin-green', 'violet', 'pink-sherbet', 'cadet-blue', 'neon-carrot', 'shamrock', 'melon', 'inch-worm', 'carnation-pink', 'almond', 'indigo', 'green', 'red-violet', 'magenta', 'canary', 'pacific-blue', 'antique-brass', 'asparagus', 'blush', 'macaroni-and-cheese', 'manatee', 'sky-blue', 'wisteria', 'razzle-dazzle-rose', 'periwinkle', 'gold', 'maroon', 'sunglow', 'orchid', 'turquoise-blue', 'peach', 'salmon', 'scarlet', 'blue-bell', 'piggy-pink', 'mango-tango', 'burnt-orange', 'jazzberry-jam', 'purple-pizzazz', 'mauvelous', 'plum', 'jungle-green', 'tan', 'brick-red', 'forest-green', 'mountain-meadow', 'wild-blue-yonder', 'granny-smith-apple', 'pine-green', 'blue-violet', 'tickle-me-pink', 'wild-watermelon', 'razzmatazz', 'vivid-violet']"
+ourmiami,3,1088,17801,"['ourmiami', 'psc2014', 'results-test']"
+tchu,2,0,0,"['mountainview', 'mountain-view']"
+michelleschmitt,1,2,0,['the-oval']
+mtouzin,1,0,0,['cesty']
+danielmichaelwolf,1,4,0,['UCD-bike-racks']
+nycdot,2,18986,10915,"['vz', 'nycbikeshare']"
+HamptonRoads,2,0,0,"['slugs', 'Test']"
+linndavis,1,58,0,['ciity']
+marketmain,1,157,533,['vhmp']
+esmith,1,13,4,['poi']
+atogle858a78b024d647ce,1,0,0,['test']
+openplans,29,15410,782,"['sc-usage', 'borotaxis', 'devsg', 'discussions', 'prodsg', 'chicagobikes', 'survey-test', 'community-map', 'cb3-survey-copy', 'atm_surcharge', 'n3rd-st', 'cb3survey-clone', 'devnyrhb', 'ped_obstacles', 'devdivvy', 'joyride1', 'repcity', 'testy', 'rr-stations', 'ourmiami', 'polydemo', 'cb1-active', 'testy-mctest', 'stamford', 'devnyrrh', 'cb3-survey', 'shareabouts-demo', 'devpbnyc', 'cb8-survey']"
+mcb7,1,1,0,['mcb7capex']
+nammacycle,1,0,0,['rama']
+makebrooklynsafer,5,553,972,"['makebrooklynsafer', 'kross2013', '76thprecinct', '78thprecinct', '84thprecinct']"
+crowdspot,2,0,0,"['demo-crowdspot', 'demo']"
+ManhCB1,1,4,0,['active-rec-spaces']
+ManhCB6,1,35,0,['mcb6capex']
+ioby,2,279,423,"['memphis-dev', 'memphis']"
+mejackreed,2,165,0,"['test', 'gatiremap-dev1']"
+tektonomastics,1,478,0,['buildings']
+bksrts,10,32,0,"['ps132', 'ps84', 'ps261', 'ps261dev', 'srts-dev', 'ms51dev', 'ms51', 'ps132dev', 'ps84dev', 'srts']"
+TimMoreland,1,0,0,['greatplacetest']
+jesperfrant,1,1,0,['fieldplacements']
+planbox,176,259,0,"['YourVoice-chino-bike-and-pedestrian-master-plan', 'user-testproject', 'claro81-planicipe-planification-participative', 'ptraughber-visionzerosf', 'serg-final', 's2t1-s2tsdc', 'erinbarnes-jersey-city-bike-racks', 'amorganroth0425-wisconsin-statewide-bicycle-infrastructure-plan', 'Ilona-garden-street-a-new-downtown-street-for-south-burlington', 'JeffersonvillePlanning-bicycle-route-implemenation', 'IFSIGNCODE-idaho-falls-sign-code-update', 'frank-title', 'hgutherl-conifer285-corridor-area-plan', 'RonB-crooswijkerzand', 'fmoore-test', 'jsisson65-newton-villages', 'syntell-syntell', 'khoven-renegade-planners-collective', 'ignacioabe-santiago-pedaleable', 'hstucker-massachusetts-food-system-plan', 'nepanode-nepanode', 'jtehrani-feature-list-test', 'lenninibarra-prueba-conecta2', 'makeArchitecture-the-super-bikeway', 'ericrodenbeck-just-a-test-man', 'atogle-lorem-all-the-ipsums', 'GreenPhilly-greenphilly', 'robi-y-anyway', 'llkats-sf-bike-map', 'bborisov-neighborhoods-test-project', 'dankray-gefuhle-stadt', 'openopenopen-openopenopen', 'zonderland-story-catcher', 'natalieshieh-30th-street-station-precinct-joint-master-plan', 'nightdaggar-test-project-x', 'alisoni-bed-stuy-history', 'wboykinm-traffic-abatement-in-burlingtons-south-end', 'ssa27-lakeview-public-way-improvements', 'Henrique-projeto-teste', 'pamsoto-public-uses-of-the-bronx-river', 'just_testing-bicicletas', 'mpoe-my-new-project', 'test888-test', 'patygutierrez-jdciii-housing-cluster', 'kensnyder105-night-time-frisbee-game', 'AirMarty-projettest', 'gatoona-bike-metro', 'cmadore-lake-massapoag-bicycling-network-plan', 'jma1966-safe-streets-2', 'SRMC2-sr-test-greater-bpt-tod', 'APiller-bellevue-pedestrian-and-bicycle-plan', 'Bomaderry-revitalising-bomaderrys-cbd', 'rdiana-solar-water-heater-information', 'raction-qc-mississippi-river', 'SustainableKeuka-sustainable-keuka-lake-project', 'Ckalbert-alberts-solutions', 'mgosline-bridging-the-creek', 'cressica-gulangyu', 'gwdtest-key-connections', 'colemant-test-map-for-parsons-brinckerhoff', 'One-road-conditions-for-bikers', 'Long_Term_Care_CIA-long-term-care-consumer-intelligence-agency', 'GrandRapids-grfwd', 'rachel2428-armstrong-mill-neighborhood', 'CoryColwell-calgary', 'kweinand-spokane-neighborhood-profiles', 'abhiram-socal', 'benwallen-sonyc', 'zuccabalucca-familia', 'alexsweet-mountain-view-bike-plan-update', 'mvandenhoek-limbach-park', 'kaeru-better-pedestrian-facilities-for-subang-jaya', 'graspmobile-pueblo-plug-in-to-nature', 'EBI-ebi-screenline-survey', 'brunomotta26-melhorando-minha-cidade', 'camilolozano-conecta2', 'rukku-whatsup', 'KyraSchneider-pedestrian-and-bicycle-master-plan-update', 'amartinez-hillsboro-blvd-lane-elimination', 'socki4hou-houston-crowd-sourcing-map-of-infrastructure-improvements-trouble-zones-and-cyclingped-accident-zones', 'fedex1-air-pollution-watch', 'bmdptraining-belize-municipal-development-plans', 'ryanekistics-at', 'marksatterfield-find-soup', 'Fazal-brampton-open-government', 'staffor-mapping-memory-of-place', 'EMueller-eastlake-community-plans', 'krutz27-infectious-equine-outbreaks', 'tamcclen-mapping-all-post-boxes', 'JCinnamon-test', 'testmetest-duwamish-river-superfund-cleanup', 'frank-map', 'ChesterAdapt-city-of-chester-resiliency-planning', 'jjsoares-bopcor', 'UPE-mapas-taller', 'jridot-draft-iowa-park-and-ride-plan', 'simonlaird-city-of-sydney-urban-skate-plan', 'VSB-vsz', 'stjefin-valanghe', 'ernesto200-mi-ciudad-9-de-julio', 'chado-testing123', 'Kamesg-open-source-government', 'Brookdaleestates-park-improvements', 'sferone-knish', 'trood-the-linc', 'SFMTARailCapacityStrategy-sfmta-rail-capacity-strategy', 'GetActiveGNV-tell-us-where-you-need-bike-parking', 'mcloyd-ma-food-systems', 'SPA-we-heart-parks', 'yamaha-bikewitnessorg', 'peter_thompson-connected-california', 'ambrosius-thaicom-upgrade', 'gronskk-beph-2014', 'tkrolik-reservoir-hill-tree-canopy-project', 'matikalwill-primer-calle-bici-en-carmelo-uy', 'fcorsi-test', 'ScootNetworks-where-should-we-scoot-to-next', 'tedritzer-teds-project', 'scottbeslow-chicago-residential-flood-map', 'nelsnelson-test', 'KTUAplanner-santa-ana-downtown-transit-zone-complete-streets-plan', 'mstegeman1-chicago-pedestrian-infrastructure', 'playtoride-barcelona-city-challenge', 'Plippens-welcome-to-the-portland-master-plan-asset-mapping-exercise', 'hstclair-massachusetts-food-system-plan', 'Ronald-zoning-in-narberth', 'nneditch-atl-infrastructure', 'sophielubin-where-should-we-scoot-to-next', 'CB11Queens-capital-budget', 'Bellaka-city-of-troy-master-plan', 'jldawkins-activating-vacant-spaces-raleigh', 'Enzello-city-heights-community-planning', 'Aisey-bike-parking', 'acochrandemo-test-project', 'Michaurel-diagnostic-territorial-de-xville', 'goodwind-test', 'ktown-comprehensive-knightstown-plan', 'Stanislav-velostancia', 'ClickMapPlan-clickmapplan', 'Alain-test', 'charleswlawrence-atlanta-preservation-map', 'MaryAlexandra-community-education-center', 'emilyegan-livable-broadway-gary-in', 'Bec-brisbane-celebrations', 'jenifferhomes-skinue', 'funbunko-brooklyn-potholes', 'pbfoodintern-lake-county-community-food-assessment', 'Stanislav1-', 'soulside-portland-skate-spots', 'rallemann-mountainbike-fallen', 'AlongThePike-arlington-county-bike-project-update', 'trailnet-kirkwood-pedestrian-and-bicycle-master-plan', 'reveng-pedestrian-and-cyclist-improvements', 'Grillbag2000-pattaya-cityincity', 'dpnptl-rainbow-loom-designs', 'eugenebata-bard-transportation', 'Connectkendallsquare-connect-kendall-square-an-open-space-competition', 'dhaier-milemesh', 'knish-knish-map', 'nicoleestevez-apa-great-places-fl', 'iledefrance-carticipe', 'mpoe-map', 'dsiah-unlitterdelphia', 'rubywhite-2014-targets', 'kevin-test-projekt-deutschland', 'cityofjerseycity-jersey-city-streetscape', 'BoWilliams-swope-area-plan', 'RobinAbad-san-francisco-pavement-to-parks-projects', 'dexterslu-mostly-fun', 'GrowingResilience-growing-resilience', 'skdavis147-san-pedro-green-alleys-and-pathways', 'CharlestonCountyPlanning-historic-preservation-committee', 'ChaosAndCornbread-mapping-memories-of-atlantas-residents', 'CVilleQuiet-we-all-have-busy-lives-and-appreciate-that-moment-of-quiet-relaxation-share-your-hidden-quiet-contemplative-rela', 'gavinsullivan-codename-pbampj', 'smeekins-bikeway-feasibility-study']"
+sandymap,1,45,5,['sandy-recovery']
+chattanoogagov,2,0,0,"['greatplacestest', 'greatplaces']"
+historiclouisville,1,30,35,['historiclouisville']
+salem,1,20,0,['salemsrts']
+pbnyc,1,185,0,['pbnyc-2014']
+openatlanta,1,14,6,['atlart']
+partnc,1,0,0,['test']
+simeonnedkov,1,9,17,['simeonnedkov']
+phlush,1,6,0,['phlush']
+jpichot,2,39,11,"['betterblockgr', 'restate']"
+interfacestudio,5,299,256,"['macon', 'grfwd', 'grfwd-dev', 'macon-action-plan', 'macon-action-plan-dev']"
+spjika,1,0,0,['OSNI']
+sacramento,2,18,4,"['safesac', 'srts']"
+paulmackay,1,1,0,['subways']
+cb3,1,1217,451,['cb3-survey']
+mjumbewu,2,1431,345,"['this-is-a-test', 'philly-bike-share']"
+geoprism,2,1,1,"['geoprism-data', 'localplan']"
+stoss,1,17,4,['grfwd-river']
+vance,1,2,2,['vance']
+geosprocket,2,5,3,"['placesurvey', 'cvrpc5']"
+d23,1,59,75,['d23']
+atlantabike,1,0,0,['bikeshare']
+rkaranas,1,0,0,['rkaranas-data']
+apramana,1,6,1,['muni-data']
