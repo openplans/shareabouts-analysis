@@ -52,7 +52,7 @@ mgmt.combine_datasets(API_data, all_data)
 print len(all_data)
 
 output_file = os.path.join(os.getcwd(),
-                           "data_exports",
+                           "exports", "data",
                            "all_datasets.csv")
 
 
