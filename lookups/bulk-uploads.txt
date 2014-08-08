@@ -1,0 +1,25 @@
+# this file lists datasets that had bulk uploads 
+# e.g. pre-loading in lots of land use parcels 
+#
+# we want to consider these datasets differently because their counts of places
+# aren't the same as those where data was added by map users
+
+re
+devnyrhb
+hb-full
+rw
+hb
+devnyrrh
+rh3
+rh
+rh4
+rh2
+cb8-survey
+lm
+lmtemp
+cb3-survey-copy
+cb3-survey
+cb3-survey
+n3rd-st
+biketotransit
+polydemo
