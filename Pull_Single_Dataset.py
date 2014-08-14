@@ -33,6 +33,8 @@ for url in URLS:
     owner = url.split("/")[-4]
     dataset_name = url.split("/")[-2]
 
+    filename = 'exports/excel/' + owner + "_" + dataset_name + ".xlsx"
+    print filename
 
     data = api.pull_dataset_data(api.get_data(url), "features")
 
@@ -113,15 +115,15 @@ for url in URLS:
 ###################################################################
 ###################################################################
 
-workbook = xlsxwriter.Workbook('exports/excel/calendar.xlsx')
+workbook = xlsxwriter.Workbook(filename)
 
 worksheet_summary = workbook.add_worksheet( "SUMMARY" )
 
 worksheet = workbook.add_worksheet( "github-calendar" )
 
-worksheet1 = workbook.add_worksheet( "place_time" )
-worksheet2 = workbook.add_worksheet( "comment_time" )
-worksheet3 = workbook.add_worksheet( "support_time" )
+worksheet1 = workbook.add_worksheet( "activity_hr" )
+##worksheet2 = workbook.add_worksheet( "comment_time" )
+##worksheet3 = workbook.add_worksheet( "support_time" )
 
 
 
@@ -199,34 +201,48 @@ col = 0
 
 # Iterate over the data and write it out row by row.
 
-for dataset, worksheet in [[place_time, worksheet1],[comment_time, worksheet2],[support_time, worksheet3]]:
-    row = 0
-    col = 0
-    for hour in sorted(dataset):
-        worksheet.write(row, col,     hour )
-        worksheet.write(row, col + 1, dataset[hour])
-        row += 1
+###for dataset, worksheet in [[place_time, worksheet1]]:
+row = 0
+worksheet1.write_row(row, col, ['hr', 'places', 'comments', 'supports'])
+row += 1
+col = 0
+for hour in sorted(place_time):
+    worksheet1.write(row, col,     hour )
+    worksheet1.write(row, col + 1, place_time[hour])
+    worksheet1.write(row, col + 2, comment_time[hour])
+    worksheet1.write(row, col + 3, support_time[hour])
+    row += 1
 
 
 # chart time
 chart = workbook.add_chart({'type': 'line'})
+
+
+chart.set_title({
+    'name': 'Map Activity by Hour of Day',
+    'name_font': {
+        'name': 'Calibri',
+    },
+})
+
+
 chart.add_series({
-                    'values':     '=place_time!B1:B24',
-                    'categories': '=place_time!A1:A24',
+                    'values':     '=activity_hr!B2:B25',
+                    'categories': '=activity_hr!A2:A25',
                     'line':           {'color': 'red'},
                     'name':             'places added',
                 })
 
 chart.add_series({
-                    'values':     '=comment_time!B1:B24',
-                    'categories': '=comment_time!A1:A24',
+                    'values':     '=activity_hr!C2:C25',
+                    'categories': '=activity_hr!A2:A25',
                     'line':           {'color': 'green'},
                     'name':             'comments',
                 })
 
 chart.add_series({
-                    'values':     '=support_time!B1:B24',
-                    'categories': '=support_time!A1:A24',
+                    'values':     '=activity_hr!D2:D25',
+                    'categories': '=activity_hr!A2:A25',
                     'line':           {'color': 'blue'},
                     'name':             'supports',
                 })
@@ -247,28 +263,6 @@ chart.set_x_axis({
 })
 
 
-worksheet_summary.insert_chart('A5', chart)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+worksheet_summary.insert_chart('B2', chart)
 
 workbook.close()
