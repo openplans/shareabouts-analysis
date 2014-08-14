@@ -22,7 +22,7 @@ print "Loaded all modules and helper functions"
 
 
 
-URLS = ['http://data.shareabouts.org/api/v2/chicagobikes/datasets/chicago-bike-parking/places']
+URLS = ['http://api.shareabouts.org/api/v2/jjones/datasets/cogo/places']
 
 
 for url in URLS:
@@ -37,6 +37,9 @@ for url in URLS:
     data = api.pull_dataset_data(api.get_data(url), "features")
 
 
+    ###################################################################
+    # activity by day
+    ###################################################################
 
 
     activity = {}
@@ -51,11 +54,76 @@ for url in URLS:
         else:
             activity[date] = 1
 
-######################################
-########################################
+
+    ###################################################################
+    # activity by time of day
+    ###################################################################
+
+    place_time = {'00':0, '01':0, '02':0, '03':0, '04':0, '05':0, '06':0,
+                  '07':0, '08':0, '09':0, '10':0, '11':0, '12':0, '13':0,
+                  '14':0, '15':0, '16':0, '17':0,'18':0, '19':0, '20':0,
+                  '21':0, '22':0, '23':0 }
+    comment_time = {'00':0, '01':0, '02':0, '03':0, '04':0, '05':0, '06':0,
+                  '07':0, '08':0, '09':0, '10':0, '11':0, '12':0, '13':0,
+                  '14':0, '15':0, '16':0, '17':0,'18':0, '19':0, '20':0,
+                  '21':0, '22':0, '23':0 }
+    support_time = {'00':0, '01':0, '02':0, '03':0, '04':0, '05':0, '06':0,
+                  '07':0, '08':0, '09':0, '10':0, '11':0, '12':0, '13':0,
+                  '14':0, '15':0, '16':0, '17':0,'18':0, '19':0, '20':0,
+                  '21':0, '22':0, '23':0 }
+    other_time = {'00':0, '01':0, '02':0, '03':0, '04':0, '05':0, '06':0,
+                  '07':0, '08':0, '09':0, '10':0, '11':0, '12':0, '13':0,
+                  '14':0, '15':0, '16':0, '17':0,'18':0, '19':0, '20':0,
+                  '21':0, '22':0, '23':0 }
+
+
+
+
+
+
+
+    for datum in data:
+        created = datum["properties"]["created_datetime"]
+        date_created = created.split("T")[0].split("-")
+        time_created = created.split("T")[1].split(":")
+
+        hour = str(time_created[0])
+        minute = time_created[1]
+        place_time[ hour ] += 1
+
+        if len (datum["properties"]["submission_sets"]) > 0:
+            for submission in datum["properties"]["submission_sets"]:
+                print submission
+                submission_url = datum["properties"]["submission_sets"][submission]['url']
+                interactions = api.pull_dataset_data(api.get_data(submission_url), "results")
+                for interaction in interactions:
+                    interact_created = interaction['created_datetime']
+                    time_created = interact_created.split("T")[1].split(":")
+                    hour = str(time_created[0])
+                    if submission == 'comments':
+                        comment_time[ hour ] += 1
+                    elif submission == 'support':
+                        support_time[ hour ] += 1
+                    else:
+                        other_time[ hour ] += 1
+
+###################################################################
+###################################################################
+# WRITE THE DATA TO EXCEL AND VISUALIZE
+###################################################################
+###################################################################
 
 workbook = xlsxwriter.Workbook('exports/excel/calendar.xlsx')
+
+worksheet_summary = workbook.add_worksheet( "SUMMARY" )
+
 worksheet = workbook.add_worksheet( "github-calendar" )
+
+worksheet1 = workbook.add_worksheet( "place_time" )
+worksheet2 = workbook.add_worksheet( "comment_time" )
+worksheet3 = workbook.add_worksheet( "support_time" )
+
+
 
 first_date = datetime.datetime.strptime( sorted(activity)[0], '%Y-%m-%d')
 
@@ -116,36 +184,91 @@ worksheet.conditional_format('B1:ZZ7', {'type': '3_color_scale',
                                          'max_color': "#538ED5"})
 
 
-##worksheet.set_column(1, weeks_out+ 1, 5)
+
+
+
+
+activity = []
+for hour in sorted(place_time):
+    activity.append( [ hour, place_time[hour] ] )
+
+print activity
+# Start from the first cell. Rows and columns are zero indexed.
+row = 0
+col = 0
+
+# Iterate over the data and write it out row by row.
+
+for dataset, worksheet in [[place_time, worksheet1],[comment_time, worksheet2],[support_time, worksheet3]]:
+    row = 0
+    col = 0
+    for hour in sorted(dataset):
+        worksheet.write(row, col,     hour )
+        worksheet.write(row, col + 1, dataset[hour])
+        row += 1
+
+
+# chart time
+chart = workbook.add_chart({'type': 'line'})
+chart.add_series({
+                    'values':     '=place_time!B1:B24',
+                    'categories': '=place_time!A1:A24',
+                    'line':           {'color': 'red'},
+                    'name':             'places added',
+                })
+
+chart.add_series({
+                    'values':     '=comment_time!B1:B24',
+                    'categories': '=comment_time!A1:A24',
+                    'line':           {'color': 'green'},
+                    'name':             'comments',
+                })
+
+chart.add_series({
+                    'values':     '=support_time!B1:B24',
+                    'categories': '=support_time!A1:A24',
+                    'line':           {'color': 'blue'},
+                    'name':             'supports',
+                })
+
+chart.set_y_axis({
+    'major_gridlines': {
+        'visible': True,
+        'line': {'width': 0.75, 'dash_type': 'dash'}
+    },
+})
+
+
+chart.set_x_axis({
+    'major_gridlines': {
+        'visible': True,
+        'line': {'width': 0.75, 'dash_type': 'dash'}
+    },
+})
+
+
+worksheet_summary.insert_chart('A5', chart)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 workbook.close()
-
-
-'''
-
-    for datum in data:
-        created = datum["properties"]["created_datetime"]
-        date_created = created.split("T")[0].split("-")
-        time_created = created.split("T")[1].split(":")
-
-        hour = str(time_created[0])
-        minute = time_created[1]
-        place_time[ hour ] += 1
-
-        if len (datum["properties"]["submission_sets"]) > 0:
-            for submission in datum["properties"]["submission_sets"]:
-                print submission
-                submission_url = datum["properties"]["submission_sets"][submission]['url']
-                interactions = api.pull_dataset_data(api.get_data(submission_url), "results")
-                for interaction in interactions:
-                    interact_created = interaction['created_datetime']
-                    time_created = interact_created.split("T")[1].split(":")
-                    hour = str(time_created[0])
-                    if submission == 'comments':
-                        comment_time[ hour ] += 1
-                    elif submission == 'support':
-                        support_time[ hour ] += 1
-                    else:
-                        other_time[ hour ] += 1
-
-    '''
