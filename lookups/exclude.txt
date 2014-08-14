@@ -1,0 +1,21 @@
+# this is a list of datasets to exclude from the analysis
+
+test
+dev-chicago-bike-parking
+vz-dev
+dev-chicago-abandoned-bikes
+nyc_dev_data
+ps261dev
+srts-dev
+ms51dev
+ps132dev
+ps84dev
+grfwd-dev
+macon-action-plan-dev
+memphis-dev
+unlitterdelphia-dev
+devsg
+devnyrhb
+devdivvy
+devnyrrh
+devpbnyc

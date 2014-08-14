@@ -1,0 +1,46 @@
+# this is a list of owners, and the group to assign them for analysis purposes.
+# we can use this to put all openplans data under the same owner. 
+# not all datasets need to be assigned
+#
+# structure:
+# dataset owner, group
+
+admin, openplans
+bicycle-coalition, openplans
+biketotransit, openplans
+bksrts, openplans
+borotaxis, openplans
+cb3, openplans
+cb6, openplans
+chekpeds, openplans
+chicagobikes, openplans
+d23, openplans
+d31, openplans
+d32, openplans
+d33, openplans
+d38, openplans
+d39, openplans
+d44, openplans
+d45, openplans
+d8, openplans
+demo-user, openplans
+divvy, openplans
+historiclouisville, openplans
+ioby, openplans
+jacksonheights, openplans
+makebrooklynsafer, openplans
+ManhCB1, openplans
+ManhCB6, openplans
+marketmain, openplans
+mcb7, openplans
+nycdot, openplans
+nyrising, openplans
+openplans, openplans
+ourmiami, openplans
+pbnyc, openplans
+planbox, planbox
+planbox-dev, ignore
+publicinnovation
+sacramento, openplans
+salem, openplans
+weho, openplans
