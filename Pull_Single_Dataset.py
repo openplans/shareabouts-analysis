@@ -22,7 +22,7 @@ print "Loaded all modules and helper functions"
 
 
 
-URLS = ['http://api.shareabouts.org/api/v2/jjones/datasets/cogo/places']
+URLS = ['http://api.shareabouts.org/api/v2/afraint/datasets/new_york_data/places']
 
 
 for url in URLS:
