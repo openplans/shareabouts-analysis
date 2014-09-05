@@ -1,0 +1,194 @@
+owner,owner_url,display_name,slug,places,place_URL,comments,supports,other_interactions,other_interaction_types,first_place,last_place
+openplans,http://api.shareabouts.org/api/v2/openplans,NY Rising - Howard Beach (Dev),devnyrhb,6511,http://api.shareabouts.org/api/v2/openplans/datasets/devnyrhb/places,20,0,0,[],2013-10-24,2013-11-09
+openplans,http://api.shareabouts.org/api/v2/openplans,Mobile Survey Client (Surveyor) Test Data,survey-test,3,http://api.shareabouts.org/api/v2/openplans/datasets/survey-test/places,0,0,0,[],2013-04-04,2013-04-04
+historiclouisville,http://api.shareabouts.org/api/v2/historiclouisville,Louisville’s Historic Assets,historiclouisville,30,http://api.shareabouts.org/api/v2/historiclouisville/datasets/historiclouisville/places,0,18,17,['memories'],2012-09-21,2013-09-17
+danielmichaelwolf,http://api.shareabouts.org/api/v2/danielmichaelwolf,UCD bike racks,UCD-bike-racks,4,http://api.shareabouts.org/api/v2/danielmichaelwolf/datasets/UCD-bike-racks/places,0,0,0,[],2013-08-07,2013-08-07
+Eskilstuna,http://api.shareabouts.org/api/v2/Eskilstuna,stadsparken,stadsparken,47,http://api.shareabouts.org/api/v2/Eskilstuna/datasets/stadsparken/places,0,11,0,[],2013-09-26,2013-10-16
+jjones,http://api.shareabouts.org/api/v2/jjones,St. Louis,stlouis,357,http://api.shareabouts.org/api/v2/jjones/datasets/stlouis/places,55,1105,0,[],2014-04-29,2014-09-05
+iturgeon,http://api.shareabouts.org/api/v2/iturgeon,Orlando Recycle,letsrecycle,2,http://api.shareabouts.org/api/v2/iturgeon/datasets/letsrecycle/places,0,2,0,[],2013-06-01,2013-06-02
+openplans,http://api.shareabouts.org/api/v2/openplans,Community Map,community-map,95,http://api.shareabouts.org/api/v2/openplans/datasets/community-map/places,8,11,0,[],2012-09-20,2014-03-16
+d44,http://api.shareabouts.org/api/v2/d44,d44,d44,13,http://api.shareabouts.org/api/v2/d44/datasets/d44/places,3,3,0,[],2013-10-11,2013-11-09
+d32,http://api.shareabouts.org/api/v2/d32,d32,d32,26,http://api.shareabouts.org/api/v2/d32/datasets/d32/places,0,4,0,[],2013-10-23,2013-10-29
+steveleathers,http://api.shareabouts.org/api/v2/steveleathers,MIG,migshare,10,http://api.shareabouts.org/api/v2/steveleathers/datasets/migshare/places,0,4,0,[],2013-07-25,2013-07-26
+nyrising,http://api.shareabouts.org/api/v2/nyrising,hb,hb,2558,http://api.shareabouts.org/api/v2/nyrising/datasets/hb/places,31,0,0,[],2013-10-18,2013-10-19
+jjones,http://api.shareabouts.org/api/v2/jjones,NW Arkansas Bike Facilities,nwarkansas,227,http://api.shareabouts.org/api/v2/jjones/datasets/nwarkansas/places,60,111,0,[],2013-10-24,2014-08-25
+d39,http://api.shareabouts.org/api/v2/d39,D39 shortlist test,d39-shortlist-test,17,http://api.shareabouts.org/api/v2/d39/datasets/d39-shortlist-test/places,0,0,0,[],2014-03-25,2014-03-25
+sandymap,http://api.shareabouts.org/api/v2/sandymap,Sandy Recovery,sandy-recovery,45,http://api.shareabouts.org/api/v2/sandymap/datasets/sandy-recovery/places,5,0,0,[],2012-11-03,2012-11-14
+jj0hns0n,http://api.shareabouts.org/api/v2/jj0hns0n,San Diego CPG FY14 CIP Projects,sdcipcpg,193,http://api.shareabouts.org/api/v2/jj0hns0n/datasets/sdcipcpg/places,76,449,0,[],2013-07-12,2013-07-12
+dvandemark,http://api.shareabouts.org/api/v2/dvandemark,SunCycles,suncycles,6,http://api.shareabouts.org/api/v2/dvandemark/datasets/suncycles/places,0,0,0,[],2013-06-02,2013-10-20
+urbansocial,http://api.shareabouts.org/api/v2/urbansocial,"Urban Social Spaces, Kendall Square",urbansocial,155,http://api.shareabouts.org/api/v2/urbansocial/datasets/urbansocial/places,0,0,0,[],2012-11-12,2013-05-29
+openplans,http://api.shareabouts.org/api/v2/openplans,Community Board 3 Survey,cb3-survey-copy,1222,http://api.shareabouts.org/api/v2/openplans/datasets/cb3-survey-copy/places,0,0,20,['survey'],2013-06-12,2013-07-10
+jjones,http://api.shareabouts.org/api/v2/jjones,Richmond Bike Facilities,richmond-bike,11,http://api.shareabouts.org/api/v2/jjones/datasets/richmond-bike/places,0,0,0,[],2013-10-22,2013-12-22
+demo-user,http://api.shareabouts.org/api/v2/demo-user,Demo Data,demo-data,500,http://api.shareabouts.org/api/v2/demo-user/datasets/demo-data/places,119,267,17,"['ratings', 'commitments']",2012-08-27,2014-09-04
+fhebbert,http://api.shareabouts.org/api/v2/fhebbert,Test,test,0,http://api.shareabouts.org/api/v2/fhebbert/datasets/test/places,0,0,0,[],No places,No places
+bksrts,http://api.shareabouts.org/api/v2/bksrts,MS 51 (dev),ms51dev,0,http://api.shareabouts.org/api/v2/bksrts/datasets/ms51dev/places,0,0,0,[],No places,No places
+nyrising,http://api.shareabouts.org/api/v2/nyrising,lmtemp,lmtemp,1255,http://api.shareabouts.org/api/v2/nyrising/datasets/lmtemp/places,1,0,0,[],2013-11-26,2013-11-26
+openplans,http://api.shareabouts.org/api/v2/openplans,TLC Boro Taxi Stands,borotaxis,2,http://api.shareabouts.org/api/v2/openplans/datasets/borotaxis/places,1,2,0,[],2013-09-19,2013-09-23
+bksrts,http://api.shareabouts.org/api/v2/bksrts,MS 51,ms51,0,http://api.shareabouts.org/api/v2/bksrts/datasets/ms51/places,0,0,0,[],No places,No places
+alta,http://api.shareabouts.org/api/v2/alta,North Carolina Statewide Pedestrian and Bicycle Plan,walkbikenc,124,http://api.shareabouts.org/api/v2/alta/datasets/walkbikenc/places,0,0,0,[],2012-10-26,2012-10-26
+afraint,http://api.shareabouts.org/api/v2/afraint,twincities,twincities,12,http://api.shareabouts.org/api/v2/afraint/datasets/twincities/places,5,0,0,[],2013-06-10,2014-01-05
+openplans,http://api.shareabouts.org/api/v2/openplans,Dev Divvy,devdivvy,5,http://api.shareabouts.org/api/v2/openplans/datasets/devdivvy/places,0,1,0,[],2013-11-08,2013-11-22
+codeformiami,http://api.shareabouts.org/api/v2/codeformiami,Dude Where's My Bike?,dwmb,9,http://api.shareabouts.org/api/v2/codeformiami/datasets/dwmb/places,0,0,0,[],2013-09-09,2014-02-06
+jjones,http://api.shareabouts.org/api/v2/jjones,moragard,moragard,23,http://api.shareabouts.org/api/v2/jjones/datasets/moragard/places,15,13,0,[],2013-11-27,2014-05-09
+jjones,http://api.shareabouts.org/api/v2/jjones,Newport Beach,newport,182,http://api.shareabouts.org/api/v2/jjones/datasets/newport/places,145,210,0,[],2014-01-24,2014-03-17
+openplans,http://api.shareabouts.org/api/v2/openplans,Stamford,stamford,2,http://api.shareabouts.org/api/v2/openplans/datasets/stamford/places,1,0,0,[],2013-03-26,2013-04-03
+ourmiami,http://api.shareabouts.org/api/v2/ourmiami,OurMiami,ourmiami,264,http://api.shareabouts.org/api/v2/ourmiami/datasets/ourmiami/places,1424,7381,1,['like'],2013-07-31,2013-09-20
+paulmackay,http://api.shareabouts.org/api/v2/paulmackay,subways,subways,1,http://api.shareabouts.org/api/v2/paulmackay/datasets/subways/places,0,0,0,[],2013-08-11,2013-08-11
+geosprocket,http://api.shareabouts.org/api/v2/geosprocket,cvrpc,placesurvey,3,http://api.shareabouts.org/api/v2/geosprocket/datasets/placesurvey/places,0,1,0,[],2013-09-06,2013-09-06
+dksassociates,http://api.shareabouts.org/api/v2/dksassociates,Dundee TSP,dundee,1,http://api.shareabouts.org/api/v2/dksassociates/datasets/dundee/places,0,0,0,[],2014-06-05,2014-06-05
+interfacestudio,http://api.shareabouts.org/api/v2/interfacestudio,Macon,macon,251,http://api.shareabouts.org/api/v2/interfacestudio/datasets/macon/places,23,192,0,[],2013-10-01,2014-02-26
+demo-user,http://api.shareabouts.org/api/v2/demo-user,CB7 Demo,cb7-demo,4,http://api.shareabouts.org/api/v2/demo-user/datasets/cb7-demo/places,1,0,0,[],2012-09-07,2012-09-10
+jj0hns0n,http://api.shareabouts.org/api/v2/jj0hns0n,San Diego CPG FY14 CIP Projects,sdcipcpg-2014,387,http://api.shareabouts.org/api/v2/jj0hns0n/datasets/sdcipcpg-2014/places,0,0,0,[],2014-03-06,2014-03-07
+sacramento,http://api.shareabouts.org/api/v2/sacramento,srts,srts,18,http://api.shareabouts.org/api/v2/sacramento/datasets/srts/places,2,2,0,[],2013-08-05,2013-12-19
+chekpeds,http://api.shareabouts.org/api/v2/chekpeds,intersections,intersections,1,http://api.shareabouts.org/api/v2/chekpeds/datasets/intersections/places,1,1,0,[],2013-03-25,2013-03-25
+jjones,http://api.shareabouts.org/api/v2/jjones,southbay,southbay,0,http://api.shareabouts.org/api/v2/jjones/datasets/southbay/places,0,0,0,[],No places,No places
+mejackreed,http://api.shareabouts.org/api/v2/mejackreed,testdata,test,0,http://api.shareabouts.org/api/v2/mejackreed/datasets/test/places,0,0,0,[],No places,No places
+demo-user,http://api.shareabouts.org/api/v2/demo-user,UI Refresh Testing,ui-refresh-testing,28,http://api.shareabouts.org/api/v2/demo-user/datasets/ui-refresh-testing/places,12,18,0,[],2013-11-13,2013-12-06
+bksrts,http://api.shareabouts.org/api/v2/bksrts,PS 261,ps261,0,http://api.shareabouts.org/api/v2/bksrts/datasets/ps261/places,0,0,0,[],No places,No places
+jjones,http://api.shareabouts.org/api/v2/jjones,NC State Bike Routes,ncstatebikes,139,http://api.shareabouts.org/api/v2/jjones/datasets/ncstatebikes/places,30,84,0,[],2013-02-11,2013-08-14
+apramana,http://api.shareabouts.org/api/v2/apramana,Muni Data,muni-data,6,http://api.shareabouts.org/api/v2/apramana/datasets/muni-data/places,0,1,0,[],2013-03-15,2013-03-15
+openplans,http://api.shareabouts.org/api/v2/openplans,ATM Surcharge,atm_surcharge,46,http://api.shareabouts.org/api/v2/openplans/datasets/atm_surcharge/places,14,0,0,[],2012-09-11,2014-02-03
+dksassociates,http://api.shareabouts.org/api/v2/dksassociates,Clatsop County TSP,clatsop,4,http://api.shareabouts.org/api/v2/dksassociates/datasets/clatsop/places,0,0,0,[],2013-10-14,2013-12-18
+atogle858a78b024d647ce,http://api.shareabouts.org/api/v2/atogle858a78b024d647ce,Test,test,0,http://api.shareabouts.org/api/v2/atogle858a78b024d647ce/datasets/test/places,0,0,0,[],No places,No places
+HamptonRoads,http://api.shareabouts.org/api/v2/HamptonRoads,Bike Maps,Test,0,http://api.shareabouts.org/api/v2/HamptonRoads/datasets/Test/places,0,0,0,[],No places,No places
+atogle,http://api.shareabouts.org/api/v2/atogle,test,test,0,http://api.shareabouts.org/api/v2/atogle/datasets/test/places,0,1,0,[],No places,No places
+nyrising,http://api.shareabouts.org/api/v2/nyrising,bp,bp,62,http://api.shareabouts.org/api/v2/nyrising/datasets/bp/places,151,0,0,[],2013-10-25,2013-10-25
+jjones,http://api.shareabouts.org/api/v2/jjones,psbs,psbs,738,http://api.shareabouts.org/api/v2/jjones/datasets/psbs/places,751,6615,0,[],2014-04-03,2014-09-05
+linndavis,http://api.shareabouts.org/api/v2/linndavis,Ciity.org,ciity,58,http://api.shareabouts.org/api/v2/linndavis/datasets/ciity/places,0,0,0,[],2013-09-12,2014-02-01
+nyrising,http://api.shareabouts.org/api/v2/nyrising,rh,rh,1794,http://api.shareabouts.org/api/v2/nyrising/datasets/rh/places,74,0,0,[],2013-10-15,2013-10-15
+jlally,http://api.shareabouts.org/api/v2/jlally,mansfield,mansfield,118,http://api.shareabouts.org/api/v2/jlally/datasets/mansfield/places,75,76,0,[],2013-04-04,2013-10-08
+nyrising,http://api.shareabouts.org/api/v2/nyrising,re,re,9631,http://api.shareabouts.org/api/v2/nyrising/datasets/re/places,19,0,0,[],2013-10-23,2013-10-23
+chattanoogagov,http://api.shareabouts.org/api/v2/chattanoogagov,Great Places,greatplaces,0,http://api.shareabouts.org/api/v2/chattanoogagov/datasets/greatplaces/places,0,0,0,[],No places,No places
+d31,http://api.shareabouts.org/api/v2/d31,d31,d31,19,http://api.shareabouts.org/api/v2/d31/datasets/d31/places,4,13,0,[],2013-10-21,2014-03-31
+openplans,http://api.shareabouts.org/api/v2/openplans,Stomping Ground - Development,devsg,11,http://api.shareabouts.org/api/v2/openplans/datasets/devsg/places,0,0,0,[],2013-05-28,2013-07-26
+chattanoogagov,http://api.shareabouts.org/api/v2/chattanoogagov,Great Places,greatplacestest,0,http://api.shareabouts.org/api/v2/chattanoogagov/datasets/greatplacestest/places,0,0,0,[],No places,No places
+HamptonRoads,http://api.shareabouts.org/api/v2/HamptonRoads,data,slugs,0,http://api.shareabouts.org/api/v2/HamptonRoads/datasets/slugs/places,0,0,0,[],No places,No places
+partnc,http://api.shareabouts.org/api/v2/partnc,test,test,0,http://api.shareabouts.org/api/v2/partnc/datasets/test/places,0,0,0,[],No places,No places
+crowdspot,http://api.shareabouts.org/api/v2/crowdspot,demo-crowdspot,demo-crowdspot,0,http://api.shareabouts.org/api/v2/crowdspot/datasets/demo-crowdspot/places,0,0,0,[],No places,No places
+openplans,http://api.shareabouts.org/api/v2/openplans,NY Rising - Red Hook,devnyrrh,1968,http://api.shareabouts.org/api/v2/openplans/datasets/devnyrrh/places,70,0,0,[],2013-10-08,2013-10-10
+afraint,http://api.shareabouts.org/api/v2/afraint,Crash Data NYC,crashdata_NYC,36,http://api.shareabouts.org/api/v2/afraint/datasets/crashdata_NYC/places,12,0,5,['witness'],2012-11-11,2013-01-30
+georgiabullen,http://api.shareabouts.org/api/v2/georgiabullen,coronaplaza,coronaplaza,6,http://api.shareabouts.org/api/v2/georgiabullen/datasets/coronaplaza/places,0,0,0,[],2012-12-01,2012-12-02
+vance,http://api.shareabouts.org/api/v2/vance,vance,vance,2,http://api.shareabouts.org/api/v2/vance/datasets/vance/places,0,2,0,[],2012-10-18,2012-10-18
+jlally,http://api.shareabouts.org/api/v2/jlally,Test,test,7,http://api.shareabouts.org/api/v2/jlally/datasets/test/places,0,1,0,[],2013-01-18,2013-03-21
+columbia1,http://api.shareabouts.org/api/v2/columbia1,GillianData,GillianData,49,http://api.shareabouts.org/api/v2/columbia1/datasets/GillianData/places,1,0,0,[],2013-12-09,2014-01-06
+jjones,http://api.shareabouts.org/api/v2/jjones,marion,marion,66,http://api.shareabouts.org/api/v2/jjones/datasets/marion/places,67,43,0,[],2014-02-14,2014-06-06
+d39,http://api.shareabouts.org/api/v2/d39,d39,d39,275,http://api.shareabouts.org/api/v2/d39/datasets/d39/places,366,901,0,[],2013-10-04,2014-04-01
+jpichot,http://api.shareabouts.org/api/v2/jpichot,re//STATE,betterblockgr,11,http://api.shareabouts.org/api/v2/jpichot/datasets/betterblockgr/places,3,8,0,[],2013-04-07,2013-05-18
+nyrising,http://api.shareabouts.org/api/v2/nyrising,Howard Beach (Unabridged),hb-full,6508,http://api.shareabouts.org/api/v2/nyrising/datasets/hb-full/places,0,0,0,[],2013-10-18,2013-10-19
+openplans,http://api.shareabouts.org/api/v2/openplans,Community Discussions,discussions,6,http://api.shareabouts.org/api/v2/openplans/datasets/discussions/places,6,3,0,[],2013-01-18,2013-01-21
+jj0hns0n,http://api.shareabouts.org/api/v2/jj0hns0n,San Diego CPG FY15 CIP Projects,sdcipcpg-2015,413,http://api.shareabouts.org/api/v2/jj0hns0n/datasets/sdcipcpg-2015/places,0,3,0,[],2014-03-06,2014-03-07
+UniversityBikeCollective,http://api.shareabouts.org/api/v2/UniversityBikeCollective,Test,test,22,http://api.shareabouts.org/api/v2/UniversityBikeCollective/datasets/test/places,3,6,0,[],2014-01-19,2014-02-07
+makebrooklynsafer,http://api.shareabouts.org/api/v2/makebrooklynsafer,Old KROSS Map,makebrooklynsafer,131,http://api.shareabouts.org/api/v2/makebrooklynsafer/datasets/makebrooklynsafer/places,51,141,0,[],2012-09-21,2014-02-03
+jesperfrant,http://api.shareabouts.org/api/v2/jesperfrant,MDPFieldPlacements,fieldplacements,1,http://api.shareabouts.org/api/v2/jesperfrant/datasets/fieldplacements/places,0,0,0,[],2013-12-08,2013-12-08
+michelleschmitt,http://api.shareabouts.org/api/v2/michelleschmitt,The Oval,the-oval,2,http://api.shareabouts.org/api/v2/michelleschmitt/datasets/the-oval/places,0,0,0,[],2013-08-13,2013-08-13
+mtouzin,http://api.shareabouts.org/api/v2/mtouzin,cesty,cesty,0,http://api.shareabouts.org/api/v2/mtouzin/datasets/cesty/places,0,0,0,[],No places,No places
+afraint,http://api.shareabouts.org/api/v2/afraint,new_york_data,new_york_data,382,http://api.shareabouts.org/api/v2/afraint/datasets/new_york_data/places,52,0,2,['witness'],2013-01-30,2014-07-15
+openplans,http://api.shareabouts.org/api/v2/openplans,Joyride Backers,joyride1,0,http://api.shareabouts.org/api/v2/openplans/datasets/joyride1/places,0,0,0,[],No places,No places
+spjika,http://api.shareabouts.org/api/v2/spjika,OSNI Strip,OSNI,0,http://api.shareabouts.org/api/v2/spjika/datasets/OSNI/places,0,0,0,[],No places,No places
+columbia1,http://api.shareabouts.org/api/v2/columbia1,EllisData,EllisData,3,http://api.shareabouts.org/api/v2/columbia1/datasets/EllisData/places,0,0,1,['test'],2012-11-26,2012-11-26
+openplans,http://api.shareabouts.org/api/v2/openplans,"""Representing the City"" Workshop",repcity,5,http://api.shareabouts.org/api/v2/openplans/datasets/repcity/places,0,0,6,['visits'],2012-10-19,2012-10-19
+afraint,http://api.shareabouts.org/api/v2/afraint,crash_testing,crash_testing,42,http://api.shareabouts.org/api/v2/afraint/datasets/crash_testing/places,21,0,0,[],2012-12-09,2013-07-03
+openatlanta,http://api.shareabouts.org/api/v2/openatlanta,Atlanta Art,atlart,14,http://api.shareabouts.org/api/v2/openatlanta/datasets/atlart/places,0,6,0,[],2013-03-07,2013-05-24
+bicycle-coalition,http://api.shareabouts.org/api/v2/bicycle-coalition,Rail Stations,rail-stations,0,http://api.shareabouts.org/api/v2/bicycle-coalition/datasets/rail-stations/places,0,0,0,[],No places,No places
+Eskilstuna,http://api.shareabouts.org/api/v2/Eskilstuna,Tyck till om Stadsparken,tyck_tiller,253,http://api.shareabouts.org/api/v2/Eskilstuna/datasets/tyck_tiller/places,0,1029,0,[],2013-10-15,2013-11-17
+biketotransit,http://api.shareabouts.org/api/v2/biketotransit,Bike to Transit Stations,biketotransit,316,http://api.shareabouts.org/api/v2/biketotransit/datasets/biketotransit/places,0,0,473,"['surveys', 'bicyclists']",2012-09-20,2012-09-25
+columbia1,http://api.shareabouts.org/api/v2/columbia1,BGData,BGData,0,http://api.shareabouts.org/api/v2/columbia1/datasets/BGData/places,0,0,0,[],No places,No places
+d38,http://api.shareabouts.org/api/v2/d38,d38,d38,34,http://api.shareabouts.org/api/v2/d38/datasets/d38/places,12,3,0,[],2013-10-20,2014-03-31
+jjones,http://api.shareabouts.org/api/v2/jjones,WFU Bike Ped Study,wfubikeped,49,http://api.shareabouts.org/api/v2/jjones/datasets/wfubikeped/places,21,86,0,[],2013-10-30,2014-01-08
+mcb7,http://api.shareabouts.org/api/v2/mcb7,Manhattan CB7 Capital Spending Map,mcb7capex,1,http://api.shareabouts.org/api/v2/mcb7/datasets/mcb7capex/places,0,0,0,[],2013-11-05,2013-11-05
+jjones,http://api.shareabouts.org/api/v2/jjones,CoGo,cogo,257,http://api.shareabouts.org/api/v2/jjones/datasets/cogo/places,161,1110,0,[],2014-04-25,2014-08-27
+jlally,http://api.shareabouts.org/api/v2/jlally,walkdenver,walkdenver,2126,http://api.shareabouts.org/api/v2/jlally/datasets/walkdenver/places,70,34,0,[],2014-02-13,2014-09-03
+jjones,http://api.shareabouts.org/api/v2/jjones,Moraga Road,moraga,20,http://api.shareabouts.org/api/v2/jjones/datasets/moraga/places,0,0,0,[],2013-08-09,2013-11-06
+jlally,http://api.shareabouts.org/api/v2/jlally,sustainable communities,sustainable-communities,14,http://api.shareabouts.org/api/v2/jlally/datasets/sustainable-communities/places,8,1,0,[],2013-04-14,2013-04-14
+openplans,http://api.shareabouts.org/api/v2/openplans,Sister Cities Usage,sc-usage,11,http://api.shareabouts.org/api/v2/openplans/datasets/sc-usage/places,0,0,51,['surveys'],2012-09-10,2012-09-10
+makebrooklynsafer,http://api.shareabouts.org/api/v2/makebrooklynsafer,88th Precinct,kross2013,184,http://api.shareabouts.org/api/v2/makebrooklynsafer/datasets/kross2013/places,42,203,0,[],2013-11-08,2014-05-27
+chekpeds,http://api.shareabouts.org/api/v2/chekpeds,benches,benches,2,http://api.shareabouts.org/api/v2/chekpeds/datasets/benches/places,6,1,0,[],2013-04-21,2013-05-17
+nammacycle,http://api.shareabouts.org/api/v2/nammacycle,rama,rama,0,http://api.shareabouts.org/api/v2/nammacycle/datasets/rama/places,0,0,0,[],No places,No places
+openplans,http://api.shareabouts.org/api/v2/openplans,Pedestrian Obstacles,ped_obstacles,36,http://api.shareabouts.org/api/v2/openplans/datasets/ped_obstacles/places,12,11,0,[],2013-01-11,2013-12-10
+dksassociates,http://api.shareabouts.org/api/v2/dksassociates,DKS Test,dkstest,11,http://api.shareabouts.org/api/v2/dksassociates/datasets/dkstest/places,3,3,0,[],2014-03-04,2014-03-12
+jjones,http://api.shareabouts.org/api/v2/jjones,Mid-South Greenprint,midsouth2,194,http://api.shareabouts.org/api/v2/jjones/datasets/midsouth2/places,19,41,0,[],2013-03-20,2014-04-09
+nyrising,http://api.shareabouts.org/api/v2/nyrising,lm,lm,1254,http://api.shareabouts.org/api/v2/nyrising/datasets/lm/places,104,0,0,[],2013-11-13,2013-11-26
+nyrising,http://api.shareabouts.org/api/v2/nyrising,rhtest,rhtest,86,http://api.shareabouts.org/api/v2/nyrising/datasets/rhtest/places,0,0,0,[],2013-10-14,2013-10-14
+jlally,http://api.shareabouts.org/api/v2/jlally,osu-walkdenver,osu,404,http://api.shareabouts.org/api/v2/jlally/datasets/osu/places,13,2,0,[],2014-04-07,2014-05-08
+walkersq,http://api.shareabouts.org/api/v2/walkersq,Walker Square Community Report,walkersq,0,http://api.shareabouts.org/api/v2/walkersq/datasets/walkersq/places,0,0,0,[],No places,No places
+phlush,http://api.shareabouts.org/api/v2/phlush,phlush,phlush,6,http://api.shareabouts.org/api/v2/phlush/datasets/phlush/places,0,0,0,[],2013-03-09,2013-03-17
+jacksonheights,http://api.shareabouts.org/api/v2/jacksonheights,Jackson Heights,jacksonheights,43,http://api.shareabouts.org/api/v2/jacksonheights/datasets/jacksonheights/places,9,41,0,[],2012-09-21,2013-09-01
+gmccollam,http://api.shareabouts.org/api/v2/gmccollam,nolabikeshare,nolabikeshare,7,http://api.shareabouts.org/api/v2/gmccollam/datasets/nolabikeshare/places,0,0,7,"['bicyclists', 'cycling enthusiast']",2012-11-28,2012-11-28
+openplans,http://api.shareabouts.org/api/v2/openplans,"Stomping Ground (""Production"")",prodsg,11,http://api.shareabouts.org/api/v2/openplans/datasets/prodsg/places,0,0,0,[],2013-05-21,2013-05-22
+bksrts,http://api.shareabouts.org/api/v2/bksrts,PS 132 (dev),ps132dev,0,http://api.shareabouts.org/api/v2/bksrts/datasets/ps132dev/places,0,0,0,[],No places,No places
+openplans,http://api.shareabouts.org/api/v2/openplans,test,testy,2,http://api.shareabouts.org/api/v2/openplans/datasets/testy/places,0,0,1,['submissions'],2013-04-29,2013-12-09
+ManhCB6,http://api.shareabouts.org/api/v2/ManhCB6,Manhattan CB6 Capital Spending Map,mcb6capex,35,http://api.shareabouts.org/api/v2/ManhCB6/datasets/mcb6capex/places,0,0,0,[],2013-11-04,2013-11-04
+nyrising,http://api.shareabouts.org/api/v2/nyrising,rw,rw,5253,http://api.shareabouts.org/api/v2/nyrising/datasets/rw/places,17,0,0,[],2013-10-23,2013-10-23
+bksrts,http://api.shareabouts.org/api/v2/bksrts,PS 84 (dev),ps84dev,0,http://api.shareabouts.org/api/v2/bksrts/datasets/ps84dev/places,0,0,0,[],No places,No places
+weho,http://api.shareabouts.org/api/v2/weho,weho,weho,206,http://api.shareabouts.org/api/v2/weho/datasets/weho/places,76,382,0,[],2013-07-03,2013-10-14
+openplans,http://api.shareabouts.org/api/v2/openplans,N3rd St. Property Survey,n3rd-st,1000,http://api.shareabouts.org/api/v2/openplans/datasets/n3rd-st/places,0,0,29,['survey'],2013-04-25,2013-04-25
+openplans,http://api.shareabouts.org/api/v2/openplans,SEPTA Regional Rail Stations,rr-stations,154,http://api.shareabouts.org/api/v2/openplans/datasets/rr-stations/places,0,12,6,['surveys'],2012-08-30,2012-08-30
+makebrooklynsafer,http://api.shareabouts.org/api/v2/makebrooklynsafer,78th Precinct,78thprecinct,89,http://api.shareabouts.org/api/v2/makebrooklynsafer/datasets/78thprecinct/places,24,135,0,[],2013-12-03,2014-06-11
+jjones,http://api.shareabouts.org/api/v2/jjones,Walk Study,walkstudy,3,http://api.shareabouts.org/api/v2/jjones/datasets/walkstudy/places,0,1,0,[],2013-04-09,2013-04-12
+sacramento,http://api.shareabouts.org/api/v2/sacramento,safesac,safesac,0,http://api.shareabouts.org/api/v2/sacramento/datasets/safesac/places,0,0,0,[],No places,No places
+dksassociates,http://api.shareabouts.org/api/v2/dksassociates,DKS Test Data,test,0,http://api.shareabouts.org/api/v2/dksassociates/datasets/test/places,0,0,0,[],No places,No places
+bksrts,http://api.shareabouts.org/api/v2/bksrts,Safe Routes to School,srts,0,http://api.shareabouts.org/api/v2/bksrts/datasets/srts/places,0,0,0,[],No places,No places
+gtracy,http://api.shareabouts.org/api/v2/gtracy,Little Libraries Madison,littlelibrary608,16,http://api.shareabouts.org/api/v2/gtracy/datasets/littlelibrary608/places,0,1,0,[],2012-11-03,2014-03-05
+publicinnovation,http://api.shareabouts.org/api/v2/publicinnovation,sacramento,sacramento,5,http://api.shareabouts.org/api/v2/publicinnovation/datasets/sacramento/places,5,2,0,[],2013-03-21,2013-03-21
+dksassociates,http://api.shareabouts.org/api/v2/dksassociates,Lane County TSP,lane,229,http://api.shareabouts.org/api/v2/dksassociates/datasets/lane/places,151,136,0,[],2014-03-04,2014-07-03
+dksassociates,http://api.shareabouts.org/api/v2/dksassociates,Cottage Grove TSP,cottagegrove,1,http://api.shareabouts.org/api/v2/dksassociates/datasets/cottagegrove/places,0,0,0,[],2014-06-30,2014-06-30
+ManhCB1,http://api.shareabouts.org/api/v2/ManhCB1,active-rec-spaces,active-rec-spaces,4,http://api.shareabouts.org/api/v2/ManhCB1/datasets/active-rec-spaces/places,0,0,0,[],2013-06-14,2013-07-01
+afraint,http://api.shareabouts.org/api/v2/afraint,nyc_dev_data,nyc_dev_data,14,http://api.shareabouts.org/api/v2/afraint/datasets/nyc_dev_data/places,0,2,14,['witness'],2014-01-28,2014-03-12
+jj0hns0n,http://api.shareabouts.org/api/v2/jj0hns0n,realconnect-test,realconnect-test,0,http://api.shareabouts.org/api/v2/jj0hns0n/datasets/realconnect-test/places,0,0,0,[],No places,No places
+makebrooklynsafer,http://api.shareabouts.org/api/v2/makebrooklynsafer,84th Precinct,84thprecinct,112,http://api.shareabouts.org/api/v2/makebrooklynsafer/datasets/84thprecinct/places,67,227,0,[],2014-01-20,2014-08-19
+d45,http://api.shareabouts.org/api/v2/d45,d45,d45,40,http://api.shareabouts.org/api/v2/d45/datasets/d45/places,3,25,0,[],2013-10-11,2014-03-31
+jpichot,http://api.shareabouts.org/api/v2/jpichot,re//STATE Production,restate,28,http://api.shareabouts.org/api/v2/jpichot/datasets/restate/places,0,0,0,[],2013-05-18,2013-06-05
+columbia1,http://api.shareabouts.org/api/v2/columbia1,CarolineData,CarolineData,2,http://api.shareabouts.org/api/v2/columbia1/datasets/CarolineData/places,0,0,0,[],2014-01-10,2014-01-15
+mejackreed,http://api.shareabouts.org/api/v2/mejackreed,Georgia Tire Mapping Dev 1,gatiremap-dev1,165,http://api.shareabouts.org/api/v2/mejackreed/datasets/gatiremap-dev1/places,0,0,0,[],2013-04-16,2014-02-15
+demo-user,http://api.shareabouts.org/api/v2/demo-user,Big Red Button,bigredbutton,68,http://api.shareabouts.org/api/v2/demo-user/datasets/bigredbutton/places,0,0,0,[],2012-10-19,2014-05-09
+atlantabike,http://api.shareabouts.org/api/v2/atlantabike,bikeshare,bikeshare,0,http://api.shareabouts.org/api/v2/atlantabike/datasets/bikeshare/places,0,0,0,[],No places,No places
+gtracy,http://api.shareabouts.org/api/v2/gtracy,Madison Startups,madisonstartups,6,http://api.shareabouts.org/api/v2/gtracy/datasets/madisonstartups/places,0,9,0,[],2013-03-02,2013-03-18
+openplans,http://api.shareabouts.org/api/v2/openplans,Participatory Budgeting (Dev),devpbnyc,3,http://api.shareabouts.org/api/v2/openplans/datasets/devpbnyc/places,2,2,0,[],2013-10-12,2013-10-22
+columbia1,http://api.shareabouts.org/api/v2/columbia1,KazData,KazData,131,http://api.shareabouts.org/api/v2/columbia1/datasets/KazData/places,0,4,0,[],2012-11-14,2012-12-12
+openplans,http://api.shareabouts.org/api/v2/openplans,CB8 Storefront Worship Survey,cb8-survey,1578,http://api.shareabouts.org/api/v2/openplans/datasets/cb8-survey/places,0,0,8,['survey'],2013-05-17,2013-05-17
+borotaxis,http://api.shareabouts.org/api/v2/borotaxis,test,test,0,http://api.shareabouts.org/api/v2/borotaxis/datasets/test/places,0,0,0,[],No places,No places
+geosprocket,http://api.shareabouts.org/api/v2/geosprocket,cvrpc5,cvrpc5,2,http://api.shareabouts.org/api/v2/geosprocket/datasets/cvrpc5/places,0,2,0,[],2013-09-09,2013-09-09
+bksrts,http://api.shareabouts.org/api/v2/bksrts,PS 132,ps132,0,http://api.shareabouts.org/api/v2/bksrts/datasets/ps132/places,0,0,0,[],No places,No places
+salem,http://api.shareabouts.org/api/v2/salem,salemsrts,salemsrts,20,http://api.shareabouts.org/api/v2/salem/datasets/salemsrts/places,0,0,0,[],2013-10-02,2014-03-24
+smitaki,http://api.shareabouts.org/api/v2/smitaki,Test map,cmom,1,http://api.shareabouts.org/api/v2/smitaki/datasets/cmom/places,0,0,0,[],2012-11-27,2012-11-27
+bksrts,http://api.shareabouts.org/api/v2/bksrts,PS 261 (dev),ps261dev,0,http://api.shareabouts.org/api/v2/bksrts/datasets/ps261dev/places,0,0,0,[],No places,No places
+esmith,http://api.shareabouts.org/api/v2/esmith,Points of Interest,poi,13,http://api.shareabouts.org/api/v2/esmith/datasets/poi/places,1,3,0,[],2013-12-05,2014-07-23
+georgiabullen,http://api.shareabouts.org/api/v2/georgiabullen,civichacking_data,civichacking_data,1,http://api.shareabouts.org/api/v2/georgiabullen/datasets/civichacking_data/places,0,0,0,[],2012-11-29,2012-11-29
+markabraham,http://api.shareabouts.org/api/v2/markabraham,Data Haven,datahaven,234,http://api.shareabouts.org/api/v2/markabraham/datasets/datahaven/places,0,0,0,[],2013-05-29,2014-02-20
+UniversityBikeCollective,http://api.shareabouts.org/api/v2/UniversityBikeCollective,ForSurvey,ForSurvey,55,http://api.shareabouts.org/api/v2/UniversityBikeCollective/datasets/ForSurvey/places,18,103,0,[],2014-02-10,2014-03-20
+publicinnovation,http://api.shareabouts.org/api/v2/publicinnovation,streetfarm,streetfarm,0,http://api.shareabouts.org/api/v2/publicinnovation/datasets/streetfarm/places,0,0,0,[],No places,No places
+crowdspot,http://api.shareabouts.org/api/v2/crowdspot,demo,demo,0,http://api.shareabouts.org/api/v2/crowdspot/datasets/demo/places,0,0,0,[],No places,No places
+d33,http://api.shareabouts.org/api/v2/d33,d33,d33,66,http://api.shareabouts.org/api/v2/d33/datasets/d33/places,56,104,0,[],2013-10-11,2014-03-31
+georgiabullen,http://api.shareabouts.org/api/v2/georgiabullen,mountrainier,mountrainier,81,http://api.shareabouts.org/api/v2/georgiabullen/datasets/mountrainier/places,77,49,0,[],2013-03-24,2013-11-05
+openplans,http://api.shareabouts.org/api/v2/openplans,testing it,testy-mctest,0,http://api.shareabouts.org/api/v2/openplans/datasets/testy-mctest/places,0,0,0,[],No places,No places
+openplans,http://api.shareabouts.org/api/v2/openplans,CB3 Survey Data (Cloned),cb3survey-clone,18,http://api.shareabouts.org/api/v2/openplans/datasets/cb3survey-clone/places,0,0,18,['survey'],2013-05-01,2013-05-01
+openplans,http://api.shareabouts.org/api/v2/openplans,Chicago Bike Share exports,chicagobikes,1281,http://api.shareabouts.org/api/v2/openplans/datasets/chicagobikes/places,0,0,0,[],2012-10-24,2013-01-10
+openplans,http://api.shareabouts.org/api/v2/openplans,OurMiami,ourmiami,0,http://api.shareabouts.org/api/v2/openplans/datasets/ourmiami/places,0,0,0,[],No places,No places
+jjones,http://api.shareabouts.org/api/v2/jjones,Goldsboro,goldsboro,24,http://api.shareabouts.org/api/v2/jjones/datasets/goldsboro/places,6,11,0,[],2014-03-11,2014-08-21
+openplans,http://api.shareabouts.org/api/v2/openplans,polydemo,polydemo,201,http://api.shareabouts.org/api/v2/openplans/datasets/polydemo/places,2,4,0,[],2013-10-15,2013-10-15
+jjones,http://api.shareabouts.org/api/v2/jjones,Walk Bike Columbia,columbia,194,http://api.shareabouts.org/api/v2/jjones/datasets/columbia/places,92,378,0,[],2014-05-20,2014-08-17
+dksassociates,http://api.shareabouts.org/api/v2/dksassociates,Columbia County TSP,columbia,0,http://api.shareabouts.org/api/v2/dksassociates/datasets/columbia/places,0,0,0,[],No places,No places
+steveleathers,http://api.shareabouts.org/api/v2/steveleathers,joyography,joy,11,http://api.shareabouts.org/api/v2/steveleathers/datasets/joy/places,0,0,0,[],2012-11-01,2013-06-26
+dksassociates,http://api.shareabouts.org/api/v2/dksassociates,Newberg TSP,newberg,2,http://api.shareabouts.org/api/v2/dksassociates/datasets/newberg/places,0,0,0,[],2013-12-16,2013-12-21
+cmlander,http://api.shareabouts.org/api/v2/cmlander,albemarle survey,albemarle-survey,2,http://api.shareabouts.org/api/v2/cmlander/datasets/albemarle-survey/places,0,0,0,[],2013-06-19,2013-06-19
+chekpeds,http://api.shareabouts.org/api/v2/chekpeds,Less Phone Booths,lessphonebooths,152,http://api.shareabouts.org/api/v2/chekpeds/datasets/lessphonebooths/places,0,0,0,[],2013-03-25,2013-03-25
+openplans,http://api.shareabouts.org/api/v2/openplans,Community Board 1 Active Spaces,cb1-active,5,http://api.shareabouts.org/api/v2/openplans/datasets/cb1-active/places,0,0,0,[],2013-06-13,2013-06-14
+cmassa,http://api.shareabouts.org/api/v2/cmassa,Natural Resources Recovery Map,recoverymap,1,http://api.shareabouts.org/api/v2/cmassa/datasets/recoverymap/places,0,0,0,[],2014-04-03,2014-04-03
+TimMoreland,http://api.shareabouts.org/api/v2/TimMoreland,Great Places,greatplacetest,0,http://api.shareabouts.org/api/v2/TimMoreland/datasets/greatplacetest/places,0,0,0,[],No places,No places
+borotaxis,http://api.shareabouts.org/api/v2/borotaxis,Taxi Stands Map,taxistands,1171,http://api.shareabouts.org/api/v2/borotaxis/datasets/taxistands/places,682,2041,0,[],2013-11-01,2014-01-20
+bksrts,http://api.shareabouts.org/api/v2/bksrts,PS 84,ps84,0,http://api.shareabouts.org/api/v2/bksrts/datasets/ps84/places,0,0,0,[],No places,No places
+afraint,http://api.shareabouts.org/api/v2/afraint,overlays,overlays,5,http://api.shareabouts.org/api/v2/afraint/datasets/overlays/places,12,0,0,[],2012-12-05,2012-12-07
+bksrts,http://api.shareabouts.org/api/v2/bksrts,Safe Routes to School (dev),srts-dev,32,http://api.shareabouts.org/api/v2/bksrts/datasets/srts-dev/places,0,0,0,[],2013-07-29,2013-08-30
+nyrising,http://api.shareabouts.org/api/v2/nyrising,rh4,rh4,1794,http://api.shareabouts.org/api/v2/nyrising/datasets/rh4/places,9,0,0,[],2013-10-14,2013-10-14
+nyrising,http://api.shareabouts.org/api/v2/nyrising,rh3,rh3,1796,http://api.shareabouts.org/api/v2/nyrising/datasets/rh3/places,0,0,0,[],2013-10-14,2013-10-14
+nyrising,http://api.shareabouts.org/api/v2/nyrising,rh2,rh2,1782,http://api.shareabouts.org/api/v2/nyrising/datasets/rh2/places,0,0,0,[],2013-10-14,2013-10-14
+columbia1,http://api.shareabouts.org/api/v2/columbia1,AmyData,AmyData,4,http://api.shareabouts.org/api/v2/columbia1/datasets/AmyData/places,0,0,0,[],2012-11-14,2012-11-14
+cb6,http://api.shareabouts.org/api/v2/cb6,CB6 Capital Expenditure Map,cb6capex,106,http://api.shareabouts.org/api/v2/cb6/datasets/cb6capex/places,21,175,0,[],2013-08-21,2014-07-30
+cb3,http://api.shareabouts.org/api/v2/cb3,Community Board 3 Survey,cb3-survey,1217,http://api.shareabouts.org/api/v2/cb3/datasets/cb3-survey/places,0,0,451,"['surveys', 'survey']",2013-04-15,2013-04-15
+jlally,http://api.shareabouts.org/api/v2/jlally,east corridor,eastcorridor,52,http://api.shareabouts.org/api/v2/jlally/datasets/eastcorridor/places,0,7,0,[],2013-10-17,2013-10-31
+d8,http://api.shareabouts.org/api/v2/d8,d8,d8,58,http://api.shareabouts.org/api/v2/d8/datasets/d8/places,7,11,0,[],2013-10-17,2014-03-31
+makebrooklynsafer,http://api.shareabouts.org/api/v2/makebrooklynsafer,76th Precinct,76thprecinct,39,http://api.shareabouts.org/api/v2/makebrooklynsafer/datasets/76thprecinct/places,6,85,0,[],2014-01-20,2014-04-03
+d23,http://api.shareabouts.org/api/v2/d23,d23,d23,59,http://api.shareabouts.org/api/v2/d23/datasets/d23/places,27,48,0,[],2013-10-23,2014-03-31
+columbia1,http://api.shareabouts.org/api/v2/columbia1,Rise,rise,0,http://api.shareabouts.org/api/v2/columbia1/datasets/rise/places,0,0,0,[],No places,No places
+divvy,http://api.shareabouts.org/api/v2/divvy,Divvy Bikes,divvy,2137,http://api.shareabouts.org/api/v2/divvy/datasets/divvy/places,945,14116,0,[],2012-04-21,2013-11-12
+marketmain,http://api.shareabouts.org/api/v2/marketmain,vhmp,vhmp,157,http://api.shareabouts.org/api/v2/marketmain/datasets/vhmp/places,247,286,0,[],2013-09-30,2014-07-16
