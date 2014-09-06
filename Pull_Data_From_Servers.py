@@ -8,6 +8,7 @@
 import csv
 import os
 import time
+import datetime
 from time import sleep
 import requests
 from requests.auth import HTTPBasicAuth
@@ -17,7 +18,9 @@ import helpers.api_access as api
 import helpers.data_mgmt as mgmt
 
 
-
+OUTPUT_FILENAME = "Both_Servers_w_lifetime_" + \
+                    str(datetime.date.today()) + \
+                    ".csv"
 
 
 def history_of_dataset(PLACES_URL):
@@ -26,7 +29,7 @@ def history_of_dataset(PLACES_URL):
     JSON = api.get_data(PLACES_URL)
     print PLACES_URL
     # change the cutoff number to prevent large datasets from being processed
-    if JSON["metadata"]["length"] > 10000:
+    if JSON["metadata"]["length"] > 1000:
         return "Too Many", "Too Many"
     else:
         all_places = api.pull_dataset_data(JSON, "features")
@@ -92,19 +95,19 @@ print "Loaded all modules and helper functions"
 data_url = 'http://data.shareabouts.org/api/v2/~/datasets?format=json&page=1'
 api_url = 'http://api.shareabouts.org/api/v2/~/datasets?format=json&page=1'
 
-##data_server = api.get_data(data_url)
+data_server = api.get_data(data_url)
 api_server = api.get_data(api_url)
 
-##DATA_datasets = api.pull_dataset_data(data_server, "results")
+DATA_datasets = api.pull_dataset_data(data_server, "results")
 API_datasets = api.pull_dataset_data(api_server, "results")
 
 # quick QAQC - make sure the json metadata matches the resulting python object
-"""
+
 if len(DATA_datasets) != data_server["metadata"]["length"]:
     print "Error with DATA server data"
 else:
     print "DATA server: %i datasets" % len(DATA_datasets)
-"""
+
 if len(API_datasets) != api_server["metadata"]["length"]:
     print "Error with API server data"
 else:
@@ -112,19 +115,19 @@ else:
 
 
 # combine the datasets from the API and DATA servers
-##API_data = api.pull_relevant_data(API_datasets)
+####API_data = api.pull_relevant_data(API_datasets)
 API_data = pull_relevant_data(API_datasets)
-##DATA_data = api.pull_relevant_data(DATA_datasets)
+DATA_data = pull_relevant_data(DATA_datasets)
 
 all_data = {}
 
-##mgmt.combine_datasets(DATA_data, all_data)
+mgmt.combine_datasets(DATA_data, all_data)
 mgmt.combine_datasets(API_data, all_data)
 print len(all_data)
 
 output_file = os.path.join(os.getcwd(),
                            "exports", "data",
-                           "API_Server_lifetime.csv")
+                           OUTPUT_FILENAME)
 
 
 mgmt.write_csv(output_file,
