@@ -1,6 +1,6 @@
 import csv
 import os
-
+import datetime
 
 def write_csv(OUTPUT_FILE, HEADER, DATA):
     with open(OUTPUT_FILE, 'wb') as csvfile:
@@ -10,7 +10,10 @@ def write_csv(OUTPUT_FILE, HEADER, DATA):
             writer.writerow(DATA[item])
     print "Wrote file to %s" % OUTPUT_FILE
 
-
+def get_day_of_week(DATE):
+    """ turns a date into a string, as day of week, like 'Sun'   """
+    the_date = datetime.datetime.strptime(DATE, '%Y-%m-%d')
+    return the_date.strftime('%a')
 
 def combine_datasets(DATA_LIST, OUTPUT_DICT):
     """  toss datasets into a dictionary.
