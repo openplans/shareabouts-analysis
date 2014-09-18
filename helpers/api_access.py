@@ -50,9 +50,10 @@ def history_of_dataset(PLACES_URL):
         were added to the dataset """
     print PLACES_URL
     JSON = get_data(PLACES_URL)
+    print PLACES_URL
     # change the cutoff number to prevent large datasets from being processed
-    if JSON["metadata"]["length"] > 5:
-        return None, None
+    if JSON["metadata"]["length"] > 1000000000:
+        return "Error", "Error"
     else:
         all_places = pull_dataset_data(JSON, "features")
         all_dates = []
@@ -65,13 +66,15 @@ def history_of_dataset(PLACES_URL):
             last_place = sorted(all_dates)[-1:][0]
             return first_place, last_place
         else:
-            return None, None
+            return "No places", "No places"
 
 def pull_relevant_data(JSON):
+    print "PULLING RELEVANT DATA"
     """  this is where the data of interest is pulled out of a JSON dictionary
          and tossed into a list  """
     results = []
     for dataset in JSON:
+        print dataset
         # get the number and type of non-point user interaction
         interactions = {"comments":0, "support":0, "other":0}
         types_of_interaction = []
@@ -87,7 +90,9 @@ def pull_relevant_data(JSON):
         # isolate the username and dump the data into a list
         owner_name = str(dataset["owner"].split("/")[-1:][0] )
 
-        first_point, last_point = None, None #history_of_dataset(dataset["places"]["url"])
+        ##first_point, last_point = None, None
+        first_point, last_point = history_of_dataset(dataset["places"]["url"])
+        print first_point, last_point
 
         data = [ owner_name.encode('utf8'),               # 0
                  dataset["owner"].encode('utf8'),         # 1
